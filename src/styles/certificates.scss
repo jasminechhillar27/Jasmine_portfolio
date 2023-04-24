@@ -1,0 +1,57 @@
+#certificates {
+  width: 100%;
+  padding: $p;
+  background-color: $color5;
+  color: $color4;
+
+  > h2 {
+    font: 800 2.7rem $text2;
+    text-align: center;
+    text-decoration-line: underline;
+    text-underline-offset: 6px;
+    margin-bottom: 3rem;
+  }
+  
+  > section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    height: 70rem;
+    padding: 8rem;
+    background-color: $color1;
+    gap: 20px;
+    
+    
+
+    > article {
+      height: 35%;
+      width: 30%;
+      background-color: $color3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      color: azure;
+      position: relative;
+      border-end-end-radius: 80px;
+      border-top-left-radius: 80px;
+      &:hover {
+        box-shadow: 0 0 7px 12px $color3_1;
+      }
+
+      p {
+        letter-spacing: 2px;
+        margin: 25px 0;
+        font-size: 0.9rem;
+        color: azure;
+        line-height: 150%;
+        text-align: center;
+        overflow: hidden;
+        
+      }
+    }
+  }
+}

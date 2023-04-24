@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "date": "February 25, 2023",
+      "title": "JC Code Editor",
+      "description": "This is my real-time Code Editor,I used Full Stack, here multiple user can join the editor and automatically code will be synced as the another user's copy its room ID and login it.",
+      "imgSrc": "https://cdn.pixabay.com/photo/2023/04/20/16/15/16-15-23-910_1280.png"
+    },
+    {
+      "date": "March 16, 2022",
+      "title": "Drum Kit",
+      "description": "Drum Kit is made by using JavaScript and it produces sounds while pressing either on keyboard or just by the mouse touch.",
+      "imgSrc": "https://cdn.pixabay.com/photo/2023/04/20/16/35/drum-7940168_1280.png"
+    },
+    {
+      "date": "August 10, 2022",
+      "title": "Attendance Management System",
+      "description": "A Java project on Attendance Management System where a student can firstly signup and laterly they can login. Aside Teachers have all the rights to add, delete, update, and mark the attendance of the student.",
+      "imgSrc": "https://cdn.pixabay.com/photo/2023/04/20/16/50/16-50-04-559_1280.png"
+    },
+
+    {
+      "date": "December 15, 2022",
+      "title": "Self Live Resume",
+      "description": "I made a resume using front-end, here you will see my live resume which is present on the gitHub account. Live resume increases the quality of our skills and gives a good impression. ",
+      "imgSrc": "https://cdn.pixabay.com/photo/2023/04/20/17/19/17-19-15-165_1280.png"
+    },
+    {
+      "date": "April 23, 2023",
+      "title": "PORTFOLIO",
+      "description": "You are already seeing the portfolio so i don't think to say anything about the same.",
+      "url": "/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2023/04/21/03/22/03-22-23-612_1280.png"
+    }
+  ] 
+}

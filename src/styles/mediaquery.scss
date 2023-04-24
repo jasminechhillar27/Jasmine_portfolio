@@ -1,0 +1,415 @@
+@media screen and (max-width: 1367px) {
+  nav {
+    padding: 0 $p_md;
+    width: 80rem;
+    font: 700 1.4rem $text2;
+  }
+
+  #home {
+    height: 100vh;
+    width: 80rem;
+
+    > section {
+      &:first-of-type {
+        padding-left: $p_md;
+        > div aside {
+          width: 85%;
+          font: 700 .5rem $text1;
+        }
+        >div{
+          font: 500 1.5rem $text1;
+        }
+      }
+    }
+  }
+
+  #projects {
+    padding: 8rem $p_md;
+    height: 110vh;
+    width: 80rem;
+    > section {
+      > article {
+        height: 27rem;
+        width: 80rem;
+      }
+      .workItem {
+        padding: 2rem;
+        height: 27rem;
+        width: 60rem;
+        > aside {
+          font: 400 1.2rem $text1;
+          > p {
+            margin: 1rem;
+          }
+          > a {
+            margin: 1rem;
+          }
+        }
+      }
+    }
+  }
+  #timeline{
+    width: 80rem;
+    font:500 1rem $text1;
+  }
+
+  #skills {
+    padding: 18rem $p_md;
+    height: 100vh;
+    width: 80rem;
+    > section {
+      height: 100%;
+    }
+  }
+  #certificates {
+    padding: 18rem $p_md;
+    height: 90rem;
+    width: 80rem;
+    > section {
+      width: 100%;
+      >article{
+        font: 500 1.2rem $text1;
+      }
+    }
+  }
+
+  #contact {
+      padding: 10rem $p_md 2rem;
+    height: 100%;
+    width: 80rem;
+  > section > form {
+    > input,
+    > button {
+      font: 400 1.2rem $text1;
+      width: 50%;
+    }
+  }
+  }
+  footer {
+    width: 80rem;
+    padding-left: $p_md;
+    height: 25rem;
+    font: 600 1.6rem $text1;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  nav {
+    padding: 0 $p_base;
+    font-size: large;
+  }
+
+  #home {
+    height: 100vh;
+    > section {
+      &:first-of-type {
+        padding-left: $p_base;
+        > div {
+          > h1 {
+            font: 900 3.2rem $text1;
+          }
+          >div{
+            font-size: larg;
+            font-weight: bold;
+          }
+
+          aside {
+            width: 80%;
+          }
+        }
+      }
+    }
+    width: 80rem;
+
+    padding-right: $p_base;
+    >section::after{
+      // font-size: 40%;
+      //   // padding-right: 10rem;
+        max-width: 100%;
+        // max-width: 70vh;
+        // width: 30vh;
+      
+    }
+  }
+
+  #projects {
+    padding: 6rem $p_md;
+    height: 110vh;
+    width: 80rem;
+    > section {
+      > article {
+        height: 27rem;
+        width: 80rem;
+      }
+      .workItem {
+        padding: 2rem;
+        height: 27rem;
+        width: 60rem;
+        > aside {
+          > p {
+            margin: 1rem;
+          }
+          > a {
+            margin: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  #timeline{
+    height: 150vh;
+    margin-top: -5.3rem;
+    
+  }
+
+  #skills {
+
+    padding: 15rem 5rem 0;
+    text-align: center;
+    height: 150vh;
+  }
+}
+
+@media screen and (max-width:800px) {
+  nav {
+    font: 200 1.5rem $text1;
+    padding: 0 $p_base;
+    >h2{
+      font-size: 2.5rem;
+    }
+    >button{
+      font-weight: 400;
+    }
+  }
+
+  #home {
+    height: 100vh;
+    > section {
+      &:first-of-type {
+        padding-left: 17vmax;
+        > div {
+          > h1 {
+            font: 900 3.4rem $text1;
+          }
+          >div{
+            font-size: large;
+            font-weight: bold;
+          }
+
+          aside {
+            width: 90%;
+          }
+        }
+      }
+    }
+    width: 80rem;
+    padding-right: $p_base;
+  }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    nav {
+      >h2{
+        font: 700 4rem $text1;
+      }
+      > div{
+        font: 400 3.5rem $text1;
+        display: none;
+      }
+      > a {
+        display: none;
+      }
+    }
+    .navBtn {
+      
+      display: block;
+      font-size: 3.4rem;
+    }
+  
+  #home {
+    height: unset;
+    flex-direction: column-reverse;
+    padding-top: 3rem;
+    > section {
+      &:first-of-type {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        > div {
+          border: none;
+          padding-top: 3rem;
+          > h1 {
+            font: 900 4rem $text1;
+            align-items: center;
+            text-align: center;
+          }
+          >div{
+            flex-direction: column;
+            font-size: xx-large;
+            // align-items: center;
+            // text-align: center;
+            padding-left: 10rem;
+            >a{
+              font: 450 2.4rem $text1;
+            }
+        }
+          aside {
+            align-items: center;
+            // padding: 0 .9rem;
+            padding-right: 7rem;
+            margin: 5rem;
+            gap: 2rem;
+            font-weight: bolder;
+            
+          }
+
+          article[data-special] {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-weight: bold;
+            span {
+              display: inline-block;
+              width: 100%;
+              padding: 0 .9rem;
+              word-wrap: break-word;
+            }
+          }
+
+          article {
+            width: 100%;
+            text-align: center;
+            &::after {
+              top: 0;
+              left: 0%;
+            }
+          }
+        }
+      }
+
+      &:last-of-type {
+        border: none;
+        padding-right: 30rem;
+        
+      }
+    }
+
+    > svg {
+      font-size: 3rem;
+      bottom: -43rem;
+      left: 40.5rem;
+    }
+  }
+
+  
+
+
+
+  #projects {
+    >h2{
+      font: 800 3.2rem $text1;
+    }
+    > section {
+      > article {
+        width: 100%;
+        height: 67vmax;
+      }
+      .workItem {
+        width: 90%;
+        height: 67vmax;
+        box-shadow: 0 0 5px $color1;
+        > aside {
+          padding: 1rem;
+
+          > h3 {
+            margin: 1rem;
+          }
+
+          > p {
+            letter-spacing: 0;
+            line-height: unset;
+            margin: 0%;
+            font-size: 0.75rem;
+            font: 400 1.6rem $text1;
+          }
+
+          > a {
+            padding: 0.4rem 0.7rem;
+            font-size: 0.7rem;
+            margin: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  #timeline {
+    .timelineBox::after {
+      left: 2rem;
+      top: -4.2rem;
+    }
+
+    .timelineItem {
+      width: 100%;
+      padding-left: 5rem;
+      padding-right: 2rem;
+      font: 500 1.5rem $text1;
+    }
+
+    .rightTimeline {
+      left: 0%;
+    }
+    .leftTimeline,
+    .rightTimeline {
+      &::after {
+        left: 15px;
+      }
+    }
+  }
+
+  #skills {
+    >h2{
+      font: 600 3.5rem $text1;
+    }
+    > section {
+      margin: 6rem 0;
+      grid-template-columns: repeat(3, 1fr);
+      >div{
+        >span{
+          font: 700 1.9rem $text2;
+        }
+      }
+    }
+  }
+  #certificates > section {
+    // height: unset;
+    gap: 3rem;
+    // >section{
+    //   height: 170rem;
+    // }
+    > article {
+      font: 620 1.5rem $text2;
+      width: 27rem;
+      height: 30rem;
+      &:last-of-type{
+        margin-left: 25%;
+      }
+    }
+  }
+
+  #contact {
+    margin-top: 110rem;
+    grid-template-columns: 1fr;
+    > aside {
+      background-color: $color1;
+    }
+  }
+}
+
